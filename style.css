@@ -7,6 +7,14 @@
 }
 
 /* SharedColor */
+.centerAlignContain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 
 .discriptiomText {
   font-size: 1.25rem;
@@ -101,12 +109,49 @@ li {
   border-radius: 12px;
 }
 
+/* Standard Curriculum*/
+.StandardCurriculumContainer {
+  background-image: url(./assets/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.cart {
+  width: 368px;
+  height: 476px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ebd9e2, #f3f3f3);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+.cart img {
+  width: 130px;
+  height: 111px;
+}
 /* 
 @ media */
 
 @media screen and (max-width: 576px) {
-  .fullBody {
-    border: 1px solid rebeccapurple;
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .StandardCurriculumContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .bannarContainer {
     flex-direction: column;
