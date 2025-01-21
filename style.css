@@ -105,10 +105,9 @@ li {
   font-weight: 600;
   border-radius: 8px;
 }
-/* .menuBar {
-  max-width: 30px;
-  height: 30px;
-} */
+.menuBar {
+  display: none;
+}
 
 /* Banner */
 .bannarContainer {
@@ -259,6 +258,9 @@ footer {
 @ media */
 
 @media screen and (max-width: 576px) {
+  body {
+    justify-items: center;
+  }
   .mainStory {
     display: none;
   }
@@ -281,5 +283,16 @@ footer {
   }
   .bannarImage img {
     width: 100%;
+  }
+  .navLinks {
+    display: none;
+  }
+  .status {
+    display: none;
+  }
+  .menuBar {
+    display: block;
+    width: 30px;
+    height: 30px;
   }
 }
