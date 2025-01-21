@@ -100,3 +100,19 @@ li {
   font-weight: bold;
   border-radius: 12px;
 }
+
+/* 
+@ media */
+
+@media screen and (max-width: 576px) {
+  .fullBody {
+    border: 1px solid rebeccapurple;
+  }
+  .bannarContainer {
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  .bannarImage img {
+    width: 100%;
+  }
+}
