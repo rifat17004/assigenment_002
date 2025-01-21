@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+.body {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* SharedColor */
+
+.discriptiomText {
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: justify;
+  color: black;
+}
+.dFlex {
+  display: flex;
+}
+.orange {
+  color: #fea301;
+}
+.blue {
+  color: #01acfd;
+}
+.blue2 {
+  color: #05d4df;
+}
+.blue3 {
+  color: #5d58ef;
+}
+.maxWidth {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+/* 
+nav bar */
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  margin-right: 32px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.navContainer {
+  justify-content: space-between;
+  align-items: center;
+}
+.logoText {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+.logoContainer {
+  justify-content: center;
+  align-items: center;
+}
+.logoContainer img {
+  width: 52.61px;
+  height: 62px;
+}
+
+.status button {
+  width: 197px;
+  height: 50px;
+  border: none;
+  background-color: #fea301;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 8px;
+}
+/* .menuBar {
+  max-width: 30px;
+  height: 30px;
+} */
+
+/* Banner */
+.bannarContainer {
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.bannarHead {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.blackBtn {
+  width: 197px;
+  height: 50px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.25rem;
+  background-color: black;
+  font-weight: bold;
+  border-radius: 12px;
+}
