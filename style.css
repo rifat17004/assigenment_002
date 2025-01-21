@@ -229,6 +229,32 @@ li {
   margin-left: -15px;
 }
 
+footer {
+  background-color: #01acfd;
+  width: 100%;
+  color: white;
+  margin-top: 50px;
+}
+.footertextCont {
+  padding: 123px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footerLogo {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.footerLogoContainer {
+  align-items: center;
+  flex-direction: row;
+}
+.socialContainer span {
+  margin-right: 15px;
+}
 /* 
 @ media */
 
@@ -242,7 +268,8 @@ li {
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
   }
-  .StandardCurriculumContainer {
+  .StandardCurriculumContainer,
+  .footertextCont {
     display: flex;
     flex-direction: column;
     justify-content: center;
