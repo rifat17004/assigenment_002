@@ -4,6 +4,11 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  background-image: url(./assets/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(135deg, #ebd9e2, #f3f3f3);
 }
 
 /* SharedColor */
@@ -12,10 +17,28 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
 }
 
+.commonStoryBtn {
+  width: 175px;
+  height: 47px;
+  border-radius: 48px;
+  background-color: #3cd8e8;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+.smallText {
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+}
+.sectionHeadText {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: black;
+}
 .discriptiomText {
   font-size: 1.25rem;
   font-weight: 500;
@@ -124,7 +147,7 @@ li {
 .cart {
   width: 368px;
   height: 476px;
-
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,14 +157,86 @@ li {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   padding: 5px;
 }
+
 .cart img {
   width: 130px;
   height: 111px;
 }
+.specialBtn button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fea301;
+  color: white;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 100px 0px;
+}
+
+/* our story */
+
+.storyC {
+  justify-content: center;
+  align-items: center;
+}
+.mainStory {
+  width: 540px;
+  border-radius: 16px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
+}
+.mainStory img {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  object-fit: cover;
+}
+.storyText {
+  padding-left: 38px;
+  padding-right: 38px;
+}
+.subStorys {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.subStory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  text-align: center;
+}
+.subStory img {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  object-fit: cover;
+}
+
+#marginDesigine {
+  margin-top: -30px;
+  margin-left: -250px;
+}
+#marginDesigineBtn {
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
 /* 
 @ media */
 
 @media screen and (max-width: 576px) {
+  .mainStory {
+    display: none;
+  }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
